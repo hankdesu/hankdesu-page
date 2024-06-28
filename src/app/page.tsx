@@ -7,7 +7,7 @@ import ExplosionBox from './explosionBox';
 
 export default function Home() {
   return (
-    <main className="grid-rows-2-auto grid h-[calc(100dvh-200px)] grid-cols-2 px-20">
+    <main className="grid h-[calc(100dvh-200px)] grid-cols-2 grid-rows-2-auto px-20">
       <div className="">
         <Bio />
       </div>

@@ -19,6 +19,8 @@
 # misc
 .DS_Store
 *.pem
+.editorconfig
+design_guideline.txt
 
 # debug
 npm-debug.log*

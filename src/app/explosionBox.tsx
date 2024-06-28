@@ -77,7 +77,7 @@ function ExplosionBox() {
       <AnimatePresence>
         {buttonVisible && (
           <motion.button
-            className="bg-gradient-pop-button hover:bg-gradient-pop-button-reverse h-20 w-20 cursor-pointer rounded-full border-none bg-accent-cyan text-lg font-bold text-dark-navy outline-none"
+            className="h-20 w-20 cursor-pointer rounded-full border-none bg-accent-cyan bg-gradient-pop-button text-lg font-bold text-dark-navy outline-none hover:bg-gradient-pop-button-reverse"
             onClick={handleClick}
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
